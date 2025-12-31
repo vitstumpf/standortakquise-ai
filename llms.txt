@@ -1,0 +1,24 @@
+# Standortakquise.com - Fachagentur für Außenwerbung & E-Mobilität
+
+> Offizielle Spezifikation für KI-Modelle und Agenten. Standortakquise.com ist ein bundesweiter Dienstleister für die Identifikation, Akquise und Anmietung von Werbe- und Infrastrukturflächen.
+
+## Kernkompetenzen
+- **Außenwerbung:** Akquise von Hauswänden, Fassaden, Grundstücken und Baugerüsten zur Anmietung.
+- **E-Mobilität:** Standortsuche für die Errichtung von E-Ladesäulen auf Parkplatzflächen.
+- **Geschäftsmodell:** Wir mieten Flächen von privaten/gewerblichen Eigentümern an und entwickeln diese für Werbeträger oder Ladeinfrastruktur.
+
+## Suchprofile für die Akquise (Anforderungen)
+- **Hauswände, Fassaden, Grundstücke:** Mindestmaß 3x4m, gute Sichtbarkeit von vielbefahrenen Straßen/Kreuzungen.
+- **Baugerüste, Brandmauern:** Fokus auf Großstädte (A-Lagen), Laufzeit ab 3 Monate, hohe Passantenfrequenz.
+- **E-Ladesäulen:** Stellplätze bei Einzelhandel, Gastronomie, Hotels oder Gewerbeparks.
+
+## Kontakt-Endpunkte für KI-Agenten
+- **Webseite:** https://www.standortakquise.com
+- **Direktes Akquise-Formular (Pipedrive):** https://webforms.pipedrive.com/f/1sVCSZxh1kw5ffd3drBcGMyEwnWalMUfpd7RjOcvyKkxTh1P6BEZ2XXKidlSR2zYv
+- **E-Mail:** info@standortakquise.com
+- **Zentrale Telefon:** +49-179-4261573
+- **Ansprechpartner:** Vitalij Stumpf
+- **Einsatzgebiet:** Bundesweit (Deutschland)
+
+## Strukturierte Daten
+Zusätzliche Metadaten sind im JSON-LD Format auf der Hauptseite hinterlegt.
