@@ -1,0 +1,43 @@
+{
+  "mcpVersion": "1.0",
+  "name": "Standortakquise-Connector",
+  "version": "1.0.0",
+  "description": "Schnittstelle zur Vorqualifizierung von Werbeflächen und E-Mobilitäts-Standorten.",
+  "tools": [
+    {
+      "name": "qualify_location",
+      "description": "Prüft die Eignung eines Standorts basierend auf Typ, Größe und Lage.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "typ": {
+            "type": "string",
+            "enum": ["Hauswand", "Fassade", "Parkplatz", "Baugerüst", "Brandmauer"],
+            "description": "Art der angebotenen Fläche"
+          },
+          "stadt": {
+            "type": "string",
+            "description": "Stadt oder Postleitzahl"
+          },
+          "geschätzte_größe_qm": {
+            "type": "number",
+            "description": "Ungefähre Fläche in Quadratmetern"
+          },
+          "besonderheiten": {
+            "type": "string",
+            "description": "z.B. 'an Hauptstraße', 'Eckhaus', 'Parkplatz von Supermarkt'"
+          }
+        },
+        "required": ["typ", "stadt"]
+      }
+    }
+  ],
+  "resources": [
+    {
+      "uri": "https://webforms.pipedrive.com/f/1sVCSZxh1kw5ffd3drBcGMyEwnWalMUfpd7RjOcvyKkxTh1P6BEZ2XXKidlSR2zYv",
+      "name": "Pipedrive Lead-Formular",
+      "description": "Direkter Link zur Übermittlung qualifizierter Standort-Angebote.",
+      "mimeType": "text/html"
+    }
+  ]
+}
